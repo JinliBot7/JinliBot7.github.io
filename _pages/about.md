@@ -2,23 +2,35 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <style>
+    h6 {font-size: 0.8em;color:dimgray;}
+    </style>
+    <h6 style="color:dimgray;"> B.Eng.|<a style="color:gray;" href="https://www.polyu.edu.hk/en/">PolyU</a></h6>
+    <h6 style="color:dimgray;"> M.PHil.|<a style="color:gray;" href="https://www.polyu.edu.hk/en/">PolyU</a></h6>
+
+    <h6 style="color:dimgray;"> <a style="color:dimgray;" href = "mailto: 19044457r@connect.polyu.hk">Email</a>|Wechat: yizhijinlier7</h6>
+
+
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
+<span style="color:dimgray">
+I am a M.Phil. candidate in Mechanical Engineering at <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/">The Hong Kong Polytechnic University</a>, supervised by Professor <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/">David NAVARRO-ALARCON </a>. Since 2019, I have been working in <a style="color:lighskyblue; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/"> Robotics and Machine Intelligence Laboratory (Romi Lab)</a> on sensor-based robot motion control. Before that, I obtained Bachelor's degree at the same university and department.</span>
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<span style="color:dimgray">
+My current research lies in the intersection of multimodal robot perception and servomechanisms. During my graduate study, I have been exploring a new type of control problem  <span style="color:red; font-style: bold;">"thermal servoing"</span>, which aims to regulate the temperature of objects in dynamic heat transfer systems by means of active robot motion. Through this academic expedition, I have learned and practiced research skills in non-linear system control, thermodynamics, multiple view geometry, image processing, and optical simulation.
+</span>
+
+<span style="color:dimgray">
+
+</span>
