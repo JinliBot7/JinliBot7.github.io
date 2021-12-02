@@ -25,7 +25,7 @@
           <!-- About -->
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              about
+              About
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -64,7 +64,7 @@
               {% endfor %}
               </div>
           </li> -->
-          {% else %}
+          <!-- {% else %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link" href="{{ p.url | relative_url }}">
                 {{ p.title }}
@@ -75,7 +75,7 @@
           </li>
           {% endif %}
           {% endif %}
-          {% endfor %}
+          {% endfor %} -->
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
               <a id = "light-toggle">

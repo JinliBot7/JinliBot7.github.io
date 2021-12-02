@@ -13,8 +13,12 @@ profile:
     </style>
     <h6 style="color:dimgray;"> B.Eng.|<a style="color:gray;" href="https://www.polyu.edu.hk/en/">PolyU</a></h6>
     <h6 style="color:dimgray;"> M.PHil.|<a style="color:gray;" href="https://www.polyu.edu.hk/en/">PolyU</a></h6>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <h6 style="color:dimgray;"><i style="font-size:1em" class="fa">&#xf1d7;</i> yizhijinlier7</h6>
+    <h6 style="color:dimgray;"><i class="fa fa-youtube-play" style="font-size:1.5em;color:red"></i> <a style="color:gray;" href="https://www.youtube.com/channel/UCc0V77805epZChBeOx_vGeg">Youtube Channel</a></h6>
+    <h6 style="color:dimgray;"><span style="font-size: 1.5em;">&#9993;</span>  19044457r@connect.polyu.hk</h6>
 
-    <h6 style="color:dimgray;"> <a style="color:dimgray;" href = "mailto: 19044457r@connect.polyu.hk">Email</a>|Wechat: yizhijinlier7</h6>
 
 
 
@@ -23,14 +27,18 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <span style="color:dimgray">
-I am a M.Phil. candidate in Mechanical Engineering at <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/">The Hong Kong Polytechnic University</a>, supervised by Professor <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/">David NAVARRO-ALARCON </a>. Since 2019, I have been working in <a style="color:lighskyblue; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/"> Robotics and Machine Intelligence Laboratory (Romi Lab)</a> on sensor-based robot motion control. Before that, I obtained Bachelor's degree at the same university and department.</span>
+I am a M.Phil. candidate in Mechanical Engineering at <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/">The Hong Kong Polytechnic University</a>, supervised by Professor <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/">David NAVARRO-ALARCON </a>. Since 2019, I have been working in <a style="color:lighskyblue; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/"> Robotics and Machine Intelligence Laboratory (ROMI Lab)</a> on sensor-based robot motion control. Before that, I obtained Bachelor's degree at the same university and department.</span>
 
 
 
 <span style="color:dimgray">
-My current research lies in the intersection of multimodal robot perception and servomechanisms. During my graduate study, I have been exploring a new type of control problem  <span style="color:red; font-style: bold;">"thermal servoing"</span>, which aims to regulate the temperature of objects in dynamic heat transfer systems by means of active robot motion. Through this academic expedition, I have learned and practiced research skills in non-linear system control, thermodynamics, multiple view geometry, image processing, and optical simulation.
+My research lies in the intersection of multimodal robot perception and servomechanisms. During my graduate study, I have been exploring a new type of control problem  <span style="color:tomato; font-style: bold;">"thermal servoing"</span>, which aims to regulate the temperature of objects in dynamic heat transfer systems by means of active robot motion.
 </span>
 
 <span style="color:dimgray">
+Through my academic expedition, I have learned and practiced research skills in fields including non-linear system control, thermodynamics, multiple view geometry, image processing, and optical simulation. On top of that, I become confident in picking up new information quickly, which I believe is critical to my future research and career.
+</span>
 
+<span style="color:dimgray">
+Besides research, I enjoy listening to music, playing badminton, cooking, and workout.
 </span>
