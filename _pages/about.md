@@ -12,7 +12,7 @@ profile:
     h6 {font-size: 0.8em;color:dimgray;}
     </style>
     <h6 style="color:dimgray;"> B.Eng.|<a style="color:gray;" href="https://www.polyu.edu.hk/en/">PolyU</a></h6>
-    <h6 style="color:dimgray;"> M.PHil.|<a style="color:gray;" href="https://www.polyu.edu.hk/en/">PolyU</a></h6>
+    <h6 style="color:dimgray;"> M.Phil.|<a style="color:gray;" href="https://www.polyu.edu.hk/en/">PolyU</a></h6>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <h6 style="color:dimgray;"><i style="font-size:1em" class="fa">&#xf1d7;</i> yizhijinlier7</h6>
@@ -36,9 +36,5 @@ My research lies in the intersection of multimodal robot perception and servomec
 </span>
 
 <span style="color:dimgray">
-Through my academic expedition, I have learned and practiced research skills in fields including non-linear system control, thermodynamics, multiple view geometry, image processing, and optical simulation. On top of that, I become confident in picking up new information quickly, which I believe is critical to my future research and career.
-</span>
-
-<span style="color:dimgray">
-Besides research, I enjoy listening to music, playing badminton, cooking, and workout.
+Through my academic expedition, I have gained research skills in non-linear system control, thermodynamics, multiple view geometry, image processing, and optical simulation. I'm broadly interested in research topics that contribute to creating intelligent and safe robots working alongside people.
 </span>
