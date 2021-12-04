@@ -15,7 +15,7 @@ profile:
     <h6 style="color:dimgray;"> M.Phil.|<a style="color:gray;" href="https://www.polyu.edu.hk/en/">PolyU</a></h6>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <h6 style="color:dimgray;"><i style="font-size:1em" class="fa">&#xf1d7;</i> yizhijinlier7</h6>
+    <!-- <h6 style="color:dimgray;"><i style="font-size:1em" class="fa">&#xf1d7;</i> yizhijinlier7</h6> -->
     <h6 style="color:dimgray;"><i class="fa fa-youtube-play" style="font-size:1.5em;color:red"></i> <a style="color:gray;" href="https://www.youtube.com/channel/UCc0V77805epZChBeOx_vGeg">Youtube Channel</a></h6>
     <h6 style="color:dimgray;"><span style="font-size: 1.5em;">&#9993;</span>  19044457r@connect.polyu.hk</h6>
 
