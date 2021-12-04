@@ -41,7 +41,7 @@ To regulate the position and energy density of the concentrated sunlight spot, w
 </div>
 
 
-![Alt Text]('/assets/img/SP_polar.gif')
+![Alt Text](https://github.com/JinliBot7/JinliBot7.github.io/blob/master/assets/img/SP_polar.gif)
 
 
 
