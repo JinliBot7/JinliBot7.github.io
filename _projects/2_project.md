@@ -1,39 +1,47 @@
 ---
 layout: page
-title: Radiation-Based Thermal Servoing Fundamentals
-description: 2020/01-2021/10
-img: /assets/img/TS_background.jpg
-importance: 1
-category: work
+title: Paint With The Sun Project
+description: 2021/07 - Now
+img: /assets/img/SP_bg.png
+importance: 2
+category: On-going
 ---
-For more details, please see our [paper](https://601318ff-63df-413d-983a-b8c13c4c1e60.filesusr.com/ugd/49b3f5_17bf17383fe94c7ea5c6b59d4d84ff64.pdf) and [video](https://www.youtube.com/watch?v=A0uWVN2cKwA).
 
-Thermal servoing is a feedback control problem that deals with the regulation of an object’s temperature by means of motor actions of a rigid robot, which can either manipulate the object or the heat source. It is a frontier problem that
-has numerous important applications (e.g., in industrial process control, cosmetic dermatology, fire-fighting missions, etc.) where temperature needs to be dynamically controlled and the environment is uncertain. The quality, performance, and safety of these (otherwise open-loop) applications can be improved by incorporating thermal sensorimotor capabilities.
+
+In this project, we are developing a robotic system that automatically concentrates solar energy to a target point. A vision-based solar angle calibration algorithm is proposed.
+
+Here are some preliminary results:
+[Video 1](https://www.youtube.com/watch?v=cZYBaNVazc8), [Video 2](https://www.youtube.com/watch?v=ArwsEcXH29M),[Video 3](https://www.youtube.com/watch?v=SQlQVjfgBLw),[Video 4](https://www.youtube.com/watch?v=ga5t2DP7uvw).
+
+
+
+The main components of the developed system are depicted below. The robotic system needs at least 5-DOF to achieve the aforementioned objective. To this end, we integrate a 3-DOF robotic arm \textit{Dobot Magician} with two servo motors (controlled by a \textit{Raspberry Pi}) to cooperatively manipulate a customized end-effector, which carries a spherical Fresnel lens, an RGB camera, and a thermal camera \textit{FLIR Lepton 3.5}.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/TS_illustration.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SP_system.png' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 
 <div class="caption">
-Creatures and robots with thermomotor intelligence: (a) When exposed to the sun, butterflies adjust their wings configuration to control their temperature; robotic systems with thermal servoing algorithms can be used for (b) firefighting, (c) volcano exploration, and (d) industrial applications.
+Set up.
 </div>
 
-Although thermal sensing is a mature technology and has a rich history in the automation of many tasks , its use as a feedback signal for robot control has not been sufficiently studied in the literature, where only a few works have addressed this challenging servo-control problem. However, in these previous methods, temperature control is achieved by directly modulating the power of the heat-generating components. This approach is not suitable when considering external heat sources, e.g., wildfires and sunlight, or when the source’s power should not be varied, e.g., in cosmetic procedures.
+We specifically design the structure of the end-effector so that the optical axis of the Fresnel lens and the optical axes of the two cameras intersect at the theoretical lens focal point, which creates a large overlapping of the FOVs of the two cameras. The pitch angle and the yaw angle of the lens are independently controlled by motor 1 and 2, while the 3-DOF translation of the lens is controlled by the robotic arm. Relying on the system kinematics, the distance between the lens center and an arbitrary target point can be set while maintaining the desirable pitch and yaw angles of the lens.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/TS_setup.png' | relative_url }}" alt="" title="example image"/>
+To regulate the position and energy density of the concentrated sunlight spot, we build a optics simulation of the Fresnel lens using Python.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SP_tilt.png' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SP_series.png' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
-<div class="caption">
-Experimental setup for our radiation-based thermal servoing tests.
-</div>
 
-The dynamic coupling between temperature and motion may seem unintuitive for humans, whereas many organisms extensively exploit these relations. Such advanced thermoception-based behaviors can be used to solve many real-world problems. However, these advanced thermoception-based capabilities have not yet been fully incorporated in robot control, a discipline with good track record of borrowing inspiration from nature, but which seems to be lagging in this direction. As a feasible solution to the aforementioned issues, in this article, we present a rigorous formulation for robot thermal servoing with radiative sources.
 
+![Alt Text]('/assets/img/SP_polar.gif')
 
 
 

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Radiation-Based Thermal Servoing Fundamentals
+title: Thermal Servoing Fundamentals
 description: 2020/01-2021/10
 img: /assets/img/TS_background.jpg
 importance: 1
-category: work
+category: Past
 ---
 For more details, please see our [paper](https://601318ff-63df-413d-983a-b8c13c4c1e60.filesusr.com/ugd/49b3f5_17bf17383fe94c7ea5c6b59d4d84ff64.pdf) and [video](https://www.youtube.com/watch?v=A0uWVN2cKwA).
 
