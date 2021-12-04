@@ -23,7 +23,7 @@ profile:
 
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <span style="color:dimgray">
@@ -36,5 +36,5 @@ My research lies in the intersection of multimodal robot perception and servomec
 </span>
 
 <span style="color:dimgray">
-Through my academic expedition, I have gained research skills in non-linear system control, thermodynamics, multiple view geometry, image processing, and optical simulation. I'm broadly interested in research topics that contribute to creating intelligent and safe robots working alongside people.
+My previous robotics research is multidisciplinary, from which I have gained experience in non-linear control, multiple view geometry, image processing, thermodynamics, and ray optics simulation. For future study, I'm broadly interested in topics that is related to creating intelligent and safe robots working alongside people.
 </span>
