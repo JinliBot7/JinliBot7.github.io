@@ -36,5 +36,5 @@ My research lies in the intersection of multimodal robot perception and servomec
 </span>
 
 <span style="color:dimgray">
-My previous robotics research is multidisciplinary, from which I have gained experience in non-linear control, multiple view geometry, image processing, thermodynamics, and ray optics simulation. For future study, I'm broadly interested in topics that is related to creating intelligent and safe robots working alongside people.
+Currently, I have gained skills and experience in non-linear control, multiple view geometry, image processing, thermodynamics, and ray optics simulation. For future study, I'm broadly interested in research topics for creating intelligent and safe robots working alongside people.
 </span>
