@@ -27,7 +27,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <span style="color:dimgray">
-I am a M.Phil. candidate in Mechanical Engineering at <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/">The Hong Kong Polytechnic University</a>, supervised by Professor <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/">David NAVARRO-ALARCON </a>. Since 2019, I have been working in <a style="color:lighskyblue; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/"> Robotics and Machine Intelligence Laboratory (ROMI Lab)</a> on sensor-based robot motion control. Before that, I obtained Bachelor's degree at the same university and department.</span>
+Welcome to my Homepage! I am a Research Assistant at <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/">The Hong Kong Polytechnic University</a>, supervised by Professor <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/">David NAVARRO-ALARCON </a>. Since 2019, I have been working in <a style="color:lighskyblue; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/"> Robotics and Machine Intelligence Laboratory (ROMI Lab)</a> on sensor-based robot motion control. I also obtained BEng and MPhil degree in Mechanical Engineering from HKPolyU.</span>
 
 
 
@@ -36,5 +36,5 @@ My research lies in the intersection of multimodal robot perception and servomec
 </span>
 
 <span style="color:dimgray">
-I have experience in non-linear control, multiple view geometry, image processing, thermodynamics, and ray optics simulation. For future study, I'm broadly interested in research topics for creating intelligent robots that work alongside people.
+I have gained practical experiences in non-linear control, multiple view geometry, image processing, thermodynamics, ray optics simulation, and web development. For future study, I'm broadly interested in topics for creating intelligent robots that work alongside people.
 </span>
