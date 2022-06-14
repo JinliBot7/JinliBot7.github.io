@@ -12,10 +12,9 @@ category: On-going
 <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SP_exp.gif' | relative_url }}" alt="" title="example image"/>
 </p>  
 
-In this project, we are developing a robotic system that automatically concentrates solar energy to a target point. A vision-based solar angle calibration algorithm is proposed.
+In this project, we developed a robotic system that automatically concentrates solar energy to a target point.
 
-Here are some preliminary results:
-[Video 1](https://www.youtube.com/watch?v=cZYBaNVazc8), [Video 2](https://www.youtube.com/watch?v=ArwsEcXH29M),[Video 3](https://www.youtube.com/watch?v=SQlQVjfgBLw),[Video 4](https://www.youtube.com/watch?v=ga5t2DP7uvw).
+Check our latest video at: [Video](https://www.youtube.com/watch?v=HJ8wrbwiPDM).
 
 
 
