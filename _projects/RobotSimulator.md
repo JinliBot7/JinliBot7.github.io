@@ -5,7 +5,7 @@ description: 2022/01 - now
 img: /assets/img/RobotArm.png
 importance: 2
 category: On-going
-redirect: https://jinlibot7.github.io/PolyUVirtualLabPortfolio/
+redirect: https://jinlibot7.github.io/polyuOnlinePlatform/
 ---
 
 
