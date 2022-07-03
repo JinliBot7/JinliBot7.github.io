@@ -27,13 +27,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <span style="color:dimgray">
-Welcome to my Homepage! I am a Research Assistant at <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/">The Hong Kong Polytechnic University</a>, supervised by Professor <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/">David NAVARRO-ALARCON </a>. Since 2019, I have been working in <a style="color:lighskyblue; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/"> Robotics and Machine Intelligence Laboratory (ROMI Lab)</a> on sensor-based robot motion control. I also obtained BEng and MPhil degree in Mechanical Engineering from HKPolyU.</span>
+Welcome to my Homepage! I am a Research Assistant at the <a style="color:black; font-style: bold;" href="https://www.transgp.hk/">Centre for Transformative Garment Production</a> supervised by Professor <a style="color:black; font-style: bold;" href="https://www.eee.hku.hk/people/kazuhiro-kosuge/">Kazuhiro Kosuge</a>. Before that, I am fortunate to work with Professor <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/">David NAVARRO-ALARCON</a> on thermal servoing and sensor-based control.
 
 
 
 <span style="color:dimgray">
-My research lies in the intersection of multimodal robot perception and servomechanisms. During my graduate study, I have been exploring a new type of control problem  <span style="color:tomato; font-style: bold;">"thermal servoing"</span>, which aims to regulate the temperature of objects in dynamic heat transfer systems by means of active robot motion.
-</span>
+My research lies in the intersection of robot perception and servomechanisms. During my graduate study, my main focus was on a new type of control method called "thermal servoing". My current research interest is on robotic sewing, with the aim to drive the paradigm shift for re-industrializing garment industry.
 
 <span style="color:dimgray">
 I have gained practical experiences in non-linear control, multiple view geometry, image processing, thermodynamics, ray optics simulation, and web development. For future study, I'm broadly interested in topics for creating intelligent robots that work alongside people.
