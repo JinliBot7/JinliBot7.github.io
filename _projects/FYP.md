@@ -3,7 +3,7 @@ layout: page
 title: A Vision-Guided Robot Arm
 description: 2018/09-2019/05
 img: /assets/img/FYP_bg.jpg
-importance: 4
+importance: 5
 category: Past
 ---
 

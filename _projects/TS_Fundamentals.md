@@ -3,7 +3,7 @@ layout: page
 title: Thermal Servoing Fundamentals
 description: 2020/01-2021/10
 img: /assets/img/TS_bg.jpeg
-importance: 1
+importance: 2
 category: Past
 ---
 

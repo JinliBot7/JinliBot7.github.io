@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Paint With The Sun Project
-description: 2021/07 - Now
+description: 2021/07 - 2022/07
 img: /assets/img/SP_bg.png
 importance: 1
-category: On-going
+category: Past
 ---
 
 

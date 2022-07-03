@@ -3,7 +3,7 @@ layout: page
 title: RGB-D-T Sensor Fusion
 description: 2019/11 - 2020/01
 img: /assets/img/Cam_bg.png
-importance: 2
+importance: 3
 category: Past
 ---
 

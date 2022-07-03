@@ -3,7 +3,7 @@ layout: page
 title: Educational Robotic Platform
 description: 2019/06-2019/10
 img: /assets/img/Platform_bg.png
-importance: 3
+importance: 4
 category: Past
 ---
 

@@ -27,7 +27,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <span style="color:dimgray">
-Welcome to my Homepage! I am a Research Assistant at the <a style="color:black; font-style: bold;" href="https://www.transgp.hk/">Centre for Transformative Garment Production</a> supervised by Professor <a style="color:black; font-style: bold;" href="https://www.eee.hku.hk/people/kazuhiro-kosuge/">Kazuhiro Kosuge</a>. Before that, I am fortunate to work with Professor <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/">David NAVARRO-ALARCON</a> on thermal servoing and sensor-based control.
+Welcome to my Homepage! I am a Research Assistant at the <a style="color:blue; font-style: bold;" href="https://www.transgp.hk/">Centre for Transformative Garment Production</a> under the supervision of Professor <a style="color:black; font-style: bold;" href="https://www.eee.hku.hk/people/kazuhiro-kosuge/">Kazuhiro Kosuge</a>. Before that, I am fortunate to be supervised by Professor <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/">David NAVARRO-ALARCON</a> on thermal servoing and sensor-based control.
 
 
 
