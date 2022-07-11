@@ -32,8 +32,8 @@ Welcome to my Homepage! I am a Research Assistant at the <a style="color:blue; f
 
 
 <span style="color:dimgray">
-My research lies in the intersection of robot perception and servomechanisms. During my graduate study, my main focus was on a new type of control method called "thermal servoing". My current research interest is on robotic sewing, with the aim to drive the paradigm shift for re-industrializing garment industry.
+My research lies in the intersection of robot perception and servomechanisms. During my graduate study, my main focus was on a new type of control method called "thermal servoing". My current research interest is on robotic sewing, with the aim to drive the paradigm shift for re-industrializing the garment industry.
 
 <span style="color:dimgray">
-I have gained practical experiences in non-linear control, multiple view geometry, image processing, thermodynamics, ray optics simulation, and web development. For future study, I'm broadly interested in topics for creating intelligent robots that work alongside people.
+I have experiences in non-linear control, multiple view geometry, image processing, thermodynamics, ray optics simulation, and web development. For future study, I'm broadly interested in topics for creating intelligent robots that work alongside people.
 </span>
