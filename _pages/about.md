@@ -32,7 +32,7 @@ Welcome! My name is Luyin HU (胡鲁印). I am a Research Assistant at the <a st
 
 
 <span style="color:dimgray">
-My research lies in the intersection of robot perception and servomechanisms. My current research interest is on robotic cloth hanging.
+My research lies in the intersection of robot perception and servomechanisms. My current research interest is on deformable object manipulation, specifically, robotic cloth hanging.
 
 <span style="color:dimgray">
 I have experiences in non-linear control, physics simulation, multiple view geometry, thermodynamics, and web development. For future study, I'm broadly interested in topics for creating intelligent robots that work alongside people.
