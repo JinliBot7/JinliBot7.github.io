@@ -8,7 +8,7 @@ category: On-going
 ---
 
 <p>
-My first simulation based on 1998 SIGGRAPH paper <a href="https://www.cs.cmu.edu/~baraff/papers/sig98.pdf">"Large Steps in Cloth Simulation"</a>. I attempt to use to MPM for the next project. 
+My first simulation based on 1998 SIGGRAPH paper <a href="https://www.cs.cmu.edu/~baraff/papers/sig98.pdf">"Large Steps in Cloth Simulation"</a>. I attempt to use MPM for the next project. 
 </p>  
 <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth_video.gif' | relative_url }}" alt="" title="example image"/>
 
