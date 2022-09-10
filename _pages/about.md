@@ -26,14 +26,20 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-<span style="color:dimgray">
-Welcome! My name is Luyin HU (胡鲁印). I am a Research Assistant at the <a style="color:blue; font-style: bold;" href="https://www.transgp.hk/">Centre for Transformative Garment Production</a> under the supervision of Professor <a style="color:black; font-style: bold;" href="https://www.eee.hku.hk/people/kazuhiro-kosuge/">Kazuhiro Kosuge</a>. Before that, I am fortunate to be supervised by Professor <a style="color:black; font-style: bold;" href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/">David NAVARRO-ALARCON</a> for my MPhil study on thermal servoing and sensor-based control.
+<span>
+Hi! I am Luyin HU (胡鲁印). I am a Research Assistant at the <a href="https://www.transgp.hk/">TransGP@HKU</a> under the supervision of Professor <a href="https://www.eee.hku.hk/people/kazuhiro-kosuge/">Kazuhiro Kosuge</a>. Before that, I was fortunate to work with Professor <a href="https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/david-navarro-alarcon-dr/">David NAVARRO-ALARCON</a> for my MPhil study.
 
 
 
-<span style="color:dimgray">
-My research lies in the intersection of robot perception and servomechanisms. My current research interest is on deformable object manipulation, specifically, robotic cloth hanging.
+<span>
+My current research is on deformable object manipulation by robots. As the first step, I am buidling a physics-based and fully differentiable cloth simulation using <a href="https://www.taichi-lang.org/">Taichi</a>.
 
-<span style="color:dimgray">
-I have experiences in non-linear control, physics simulation, multiple view geometry, thermodynamics, and web development. For future study, I'm broadly interested in topics for creating intelligent robots that work alongside people.
+<span>
+I have experience in non-linear control, physics simulation, multiple view geometry, thermodynamics, and web development. For future study, I'm broadly interested in topics for creating intelligent robots that work alongside people.
 </span>
+
+<span>
+I am looking for a PhD position starting from 2023. It will be great if you would like to share some information with me!
+</span>
+
+
