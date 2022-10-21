@@ -34,7 +34,7 @@ Hi! I am Luyin HU (胡鲁印). I am a Research Assistant at the <a href="https:/
 <span>
 My current research interest is on robotic deformable object manipulation. Typically, we are working towards the in-air manipulation of cloth for robotic hanging.
 
-DOM poses unique challenges to available perception and control methods due to the high dimensional state space, the severe self-occlusion, and the anisotropic characteristics of the deformable objects. To address these issues, as the first step, I am building a physics-based and differentiable simulator using <a href="https://www.taichi-lang.org/">Taichi</a>. In this <a href="https://jinlibot7.github.io/projects/cloth/">post</a>, I share the recent progress (if any).
+DOM poses unique challenges to perception and control methods due to the high dimensional state space, the self-occlusion, and the anisotropic characteristics of the deformable objects. To address these issues, as the first step, I am building a physics-based and differentiable DOM simulator using <a href="https://www.taichi-lang.org/">Taichi</a>. In this <a href="https://jinlibot7.github.io/projects/cloth/">post</a>, I share the recent progress from time to time.
 
 <span>
 I also have experience in <a href="https://601318ff-63df-413d-983a-b8c13c4c1e60.filesusr.com/ugd/49b3f5_17bf17383fe94c7ea5c6b59d4d84ff64.pdf">non-linear control</a>, <a href="https://jinlibot7.github.io/projects/Pain_With_Sun/">robotic art</a>,  <a href="https://jinlibot7.github.io/projects/Camera_System/">sensor fusion</a>, and <a href="https://jinlibot7.github.io/polyuOnlinePlatform/">web development</a>. For future study, I'm broadly interested in topics for creating intelligent robots that work alongside people.
