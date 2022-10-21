@@ -7,6 +7,15 @@ importance: 1
 category: On-going
 ---
 
+<p style="color:gray;">
+A part of the following content is rephrased from this <a href="https://www.diva-portal.org/smash/get/diva2:1576162/FULLTEXT01.pdf">paper</a>. This <a href="https://www.science.org/doi/abs/10.1126/scirobotics.abm6010">paper</a> and this <a href="https://ieeexplore.ieee.org/document/9097275">paper</a> are also comprehensive materials to start with. For implementation, if you are also using Taichi, <a href="https://github.com/taichi-dev/taichi">Ti examples</a> are always a good starting point.</p>
+
+<h2> Mass-Spring-System </h2>
+<p>
+There are three main streams of cloth modeling techniques. The Mass-Spring-System method is the most popular for real-time applications in robotics due to its simplicity. It models the deformable objects as a collection of particles connected by springs and dampers. However, the conciseness comes with the price of the lost of physical interpretability. It is not suitable for scenarios that involve large deformation, sever self-occulusion, and multiple material coupling. Here is an implementation.
+</p>
+
+
 <p>
 My first simulation based on 1998 SIGGRAPH paper <a href="https://www.cs.cmu.edu/~baraff/papers/sig98.pdf">"Large Steps in Cloth Simulation"</a>. I attempt to use MPM for the next project. 
 </p>  
