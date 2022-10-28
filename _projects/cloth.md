@@ -8,7 +8,7 @@ category: On-going
 ---
 
 <p>
-<em>Updated on 2022/10/21</em>
+<em>Updated on 2022/10/28</em>
 </p>
 
 
@@ -31,7 +31,7 @@ The Mass-Spring-System method is popular for real-time applications in robotics 
 
 <h2> Finite Element Method </h2>
 <p>
-The finite element method (FEM) is a numerical method for solving differential equations arising in engineering and mathematical modeling. Usually, the continuum material is discretized into triangular or tetrahedron elements. Then the deformation gradient and the internal stress are computed for each element. I tried to follow the classic 1998 SIGGRAPH paper <a href="https://www.cs.cmu.edu/~baraff/papers/sig98.pdf">"Large Steps in Cloth Simulation"</a>. A preliminary result is attached below. As you may see, the self-collision is not handled properly and only the streching component of the energy density function was implemented. I didn't complete the full implementation since I found the result of the material point method (MPM), which is the state of the art method in the computer graphics community, is so astonishing. 
+The finite element method (FEM) is a numerical method for solving differential equations arising in engineering and mathematical modeling. Usually, the continuum material is discretized into triangular or tetrahedron elements. Then the deformation gradient and the internal stress are computed for each element. I tried to follow the classic 1998 SIGGRAPH paper <a href="https://www.cs.cmu.edu/~baraff/papers/sig98.pdf">"Large Steps in Cloth Simulation"</a>. A preliminary result is attached below. Notice    the self-collision is not handled properly and only the streching component of the energy density function was implemented. I didn't complete the full implementation since I found the result of the material point method (MPM), which is the state of the art method in the computer graphics community, is so astonishing. 
 </p>  
 
 <p align="center">
@@ -74,9 +74,16 @@ Change of the Youn's modulus affect the twisting process.
 </div>
 
 <br>
+I also did some experiments using a real peice of garment. 
+<p align="center">
+  <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/7-twist-real.gif' | relative_url }}"/>
+</p>
+
+
+<br>
 Let's also shear a deformable sheet.
 <p align="center">
-  <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/s-500.gif' | relative_url }}"/>
+  <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/s-2000.gif' | relative_url }}"/>
 </p>
 
 Change of the Youn's modulus affect the shearing result.
@@ -98,7 +105,14 @@ Change of the Youn's modulus affect the shearing result.
 </div>
 <br>
 
-Now, I have completed the isotropic case. There are several (maybe a lot) things to add. The next task is to add the return mapping, so the material could seperate naturally. 
+I also did some experiments using a real peice of garment. 
+<p align="center">
+  <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/6-shear-real.gif' | relative_url }}"/>
+</p>
+<br>
+
+<h2> TO DO LIST </h2>
+Now, I have completed the isotropic case. It can be seen that the simulated garment behaves similar to the real one, but a few differences exsist. There are still several (maybe a lot) features to add. My next goal is to integrate the return mapping and plasticity. 
 
 I aslo attached two **wrong** implementations of the return mapping. It is hilarious how the material behaves.
 <div class="row">
@@ -110,12 +124,19 @@ I aslo attached two **wrong** implementations of the return mapping. It is hilar
     </div>  
 </div>
 <br>
-Also, if we only preserve the volume but not the shape. The visual effect is liquid. Note that this is not physically correct.
+Also, if we only preserve the volume but not the shape, it looks like liquid. Note that this is only a visual effect but not physically correct.
 <p align="center">
   <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/5-water.gif' | relative_url }}"/>
 </p>
 
-<h2> Reference Materials </h2>
+<h2> Reference Materials</h2>
+* <a href="https://www.taichi-lang.org/">Taichi Lang</a>
+* <a href="https://docs.taichi-lang.org/tgc01">Taichi Graphics Course</a>
+* <a href="https://www.science.org/doi/10.1126/scirobotics.abd8803">Modeling, learning, perception, and control methods for deformable object manipulation</a>
+* <a href="https://www.science.org/doi/10.1126/scirobotics.abm6010">Learning garment manipulation policies toward robot-assisted dressing</a>
+* <a href="https://ieeexplore.ieee.org/document/9097275">A Grasping-Centered Analysis for Cloth Manipulation</a>
+* <a href="https://www.math.ucla.edu/~cffjiang/research/mpmcourse/mpmcourse.pdf">The Material Point Method for Simulating Continuum Materials</a>
+
 
 
 
