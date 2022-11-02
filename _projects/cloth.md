@@ -2,7 +2,7 @@
 layout: page
 title: Differentiable Cloth Modeling
 description: 2022/07 - now
-img: /assets/img/twist.png
+img: /assets/img/simulation.png
 importance: 1
 category: On-going
 ---
@@ -55,7 +55,7 @@ Let's add the mesh indices and twist a deformable sheet. Green color represents 
   <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/t-1000.gif' | relative_url }}"/>
 </p>
 
-Change of the Youn's modulus affect the twisting process.
+Change of the Young's modulus affect the twisting process.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/t-100.gif' | relative_url }}" alt="" title="example image"/>
@@ -86,7 +86,7 @@ Let's also shear a deformable sheet.
   <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/s-2000.gif' | relative_url }}"/>
 </p>
 
-Change of the Youn's modulus affect the shearing result.
+Change of the Young's modulus affect the shearing result.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/s-100.gif' | relative_url }}" alt="" title="example image"/>
@@ -124,10 +124,7 @@ I aslo attached two **wrong** implementations of the return mapping. It is hilar
     </div>  
 </div>
 <br>
-Also, if we only preserve the volume but not the shape, it looks like liquid. Note that this is only a visual effect but not physically correct.
-<p align="center">
-  <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/5-water.gif' | relative_url }}"/>
-</p>
+
 
 <h2> Reference Materials</h2>
 * <a href="https://www.taichi-lang.org/">Taichi Lang</a>
