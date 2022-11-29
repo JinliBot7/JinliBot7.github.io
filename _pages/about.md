@@ -32,7 +32,7 @@ Hi! I am Luyin HU (胡鲁印). I am a Research Assistant at the <a href="https:/
 
 
 <span>
-My current research interest is on robotic deformable object manipulation. Typically, we are working towards the in-air manipulation of cloth for robotic hanging.
+My current research interest is in robotic deformable object manipulation. Concretely, we are working towards the in-air manipulation of cloth for robotic hanging.
 
 DOM poses unique challenges to perception and control methods due to the high dimensional state space, the self-occlusion, and the anisotropic characteristics of the deformable objects. To address these issues, as the first step, I am building a physics-based and differentiable DOM simulator using <a href="https://www.taichi-lang.org/">Taichi</a>. In this <a href="https://jinlibot7.github.io/projects/cloth/">post</a>, I share the recent progress from time to time.
 
@@ -41,7 +41,7 @@ I also have experience in <a href="https://601318ff-63df-413d-983a-b8c13c4c1e60.
 </span>
 
 <span>
-I am looking for a PhD position starting from 2023. It will be great if you would like to share some information with me!
+I am actively looking for a PhD position starting from 2023. It will be great if you would like to share some information with me!
 </span>
 
 
