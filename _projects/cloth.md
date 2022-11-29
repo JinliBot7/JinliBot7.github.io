@@ -12,17 +12,17 @@ category: On-going
 </p>
 
 
-I have tried three types of cloth simulation methods, including
+I have implemented three types of cloth simulation methods, including
 
 * Mass-Spring-System
 * Finite Element Method
 * Material Point Method
 
-Note that I only use forward or symplectic Euler integration at this stage. Implicit integration may be implemented in the future. I found it is helpful to keep things simple at the beginning.
+I use forward or symplectic Euler integration at this stage. Implicit integration may be implemented in the future. I found it is helpful to keep things simple at the beginning.
 
 <h2> Mass-Spring-System </h2>
 <p>
-The Mass-Spring-System method is popular for real-time applications in robotics due to its simplicity. It models the deformable objects as a collection of particles connected by springs and dampers. However, the conciseness comes with the price of the lost of physical interpretability. It is not suitable for scenarios that involve large deformation, sever self-occulusion, and multiple material coupling. Here is an implementation in Taichi.
+The Mass-Spring-System method is popular for real-time applications in robotics due to its simplicity. It models the deformable objects as a collection of particles connected by springs and dampers. However, the conciseness comes with the price of the lost of physical interpretability. It is not suitable for scenarios that involve large deformation, severe self-occulusion, and multiple material coupling. Here is an implementation in Taichi.
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ The Mass-Spring-System method is popular for real-time applications in robotics 
 
 <h2> Finite Element Method </h2>
 <p>
-The finite element method (FEM) is a numerical method for solving differential equations arising in engineering and mathematical modeling. Usually, the continuum material is discretized into triangular or tetrahedron elements. Then the deformation gradient and the internal stress are computed for each element. I tried to follow the classic 1998 SIGGRAPH paper <a href="https://www.cs.cmu.edu/~baraff/papers/sig98.pdf">"Large Steps in Cloth Simulation"</a>. A preliminary result is attached below. Notice    the self-collision is not handled properly and only the streching component of the energy density function was implemented. I didn't complete the full implementation since I found the result of the material point method (MPM), which is the state of the art method in the computer graphics community, is so astonishing. 
+The finite element method (FEM) is a numerical method for solving differential equations arising in engineering and mathematical modeling. Usually, the continuum material is discretized into triangular or tetrahedron elements. Then the deformation gradient and the internal stress are computed for each element. I tried to follow the classic 1998 SIGGRAPH paper <a href="https://www.cs.cmu.edu/~baraff/papers/sig98.pdf">"Large Steps in Cloth Simulation"</a>. A preliminary result is attached below. However, the self-collision was not handled properly and only the streching component of the energy density function was implemented. I didn't complete the full implementation since I found the result of the material point method (MPM), the state of the art method for deformbale object and granular particle simulation in the computer graphics community, is more promising. 
 </p>  
 
 <p align="center">
@@ -44,7 +44,7 @@ A simple toy example of my MPM framework. Easy to debug.
   <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/0-mpm-simple.gif' | relative_url }}"/>
 </p>
 
-Let's fold a deformable sheet.
+Let's push a deformable sheet.
 
 <p align="center">
   <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/2-push.gif' | relative_url }}"/>
@@ -111,10 +111,47 @@ I also did some experiments using a real peice of garment.
 </p>
 <br>
 
-<h2> TO DO LIST </h2>
-Now, I have completed the isotropic case. It can be seen that the simulated garment behaves similar to the real one, but a few differences exsist. There are still several (maybe a lot) features to add. My next goal is to integrate the return mapping and plasticity. 
+Through the conducted experiments, I found that the twisting simulation was not so realistic. Espetially, the middle part of the garmment is much more bulky than the real one. After some analysis, I found the isotropic constitutive model caused the problem. Thus, I modified the deformation energy density function accroding to 2017 SIGGRAPH paper <a href="https://www.math.ucla.edu/~cffjiang/research/cloth/paper.pdf">"Anisotropic Elastoplasticity for Cloth, Knit and Hair Frictional Contact"</a>. The following shows the difference between the original and the improved simulation. Note that physical parameters are set the same and only the energy density function is different. The updated version on the right is closer the the real garment.
 
-I aslo attached two **wrong** implementations of the return mapping. It is hilarious how the material behaves.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/8-twist-ori.gif' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/7-twist-real.gif' | relative_url }}" alt="" title="example image"/>
+    </div>  
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/8-twist-improved.gif' | relative_url }}" alt="" title="example image"/>
+    </div>  
+</div>
+<br>
+
+I also started to develop my simulation playground in a more organized way. The cylinder shape static boundary is added with softened signed distance function (for a smoother gradient). Here are some preliminary results. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/9-drop0.gif' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/9-drop1.gif' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="row"> 
+        <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/9-drop2.gif' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/9-drop4.gif' | relative_url }}" alt="" title="example image"/>
+    </div>   
+</div>
+<br>
+
+I recently found a promising related pioneer work <a href="http://plasticinelab.csail.mit.edu/">"PlasticineLab: A Soft-Body Manipulation Benchmark with Differentiable Physics"</a>. I decided to learn from it.
+
+<h2> TO DO LIST </h2>
+My next goal is to implement the moving boundary condition and the return mapping. 
+
+I aslo attached two **wrong** implementations of the return mapping. It is hilarious how the material behaves. No one likes explosion except Deidara!
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/3-jiang1.gif' | relative_url }}" alt="" title="example image"/>
