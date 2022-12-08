@@ -40,8 +40,6 @@ DOM poses unique challenges to perception and control methods due to the high di
 I also have experience in <a href="https://601318ff-63df-413d-983a-b8c13c4c1e60.filesusr.com/ugd/49b3f5_17bf17383fe94c7ea5c6b59d4d84ff64.pdf">non-linear control</a>, <a href="https://jinlibot7.github.io/projects/Pain_With_Sun/">robotic art</a>,  <a href="https://jinlibot7.github.io/projects/Camera_System/">sensor fusion</a>, and <a href="https://jinlibot7.github.io/polyuOnlinePlatform/">web development</a>. For future study, I'm broadly interested in topics for creating intelligent robots that work alongside people.
 </span>
 
-<span>
-I am actively looking for a PhD position starting from 2023. It will be great if you would like to share some information with me!
-</span>
+
 
 
