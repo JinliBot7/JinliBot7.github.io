@@ -8,7 +8,7 @@ category: On-going
 ---
 
 <p>
-<em>Updated on 2022/11/29</em>
+<em>Updated on 2022/12/09</em>
 </p>
 
 
@@ -146,12 +146,33 @@ I also started to develop my simulation playground in a more organized way. The 
 </div>
 <br>
 
-I recently found a promising related pioneer work <a href="http://plasticinelab.csail.mit.edu/">"PlasticineLab: A Soft-Body Manipulation Benchmark with Differentiable Physics"</a>. I decided to learn from it.
+With some further updates, I have reproduced ~80% of the cloth modeling methods proposed in <a href="https://www.math.ucla.edu/~cffjiang/research/cloth/paper.pdf">"Anisotropic Elastoplasticity for Cloth, Knit and Hair Frictional Contact"</a>. I am satisfied with the following results. For the next step, I will explore how to train a NN controller using this differentiable simulator. To my understanding, some layers in the NN approximate and store the the state-dependent jacobian matrix of the deformable object somehow efficiently, so we don't need to update J(x) in real time as in servoing-based methods. As many examples have been demonstrated in <a href="https://arxiv.org/abs/1910.00935">"DiffTaichi"</a>, hopefully, this goal can be achieved soon.
 
-<h2> TO DO LIST </h2>
-My next goal is to implement the moving boundary condition and the return mapping. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/10-drop0.gif' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/10-drop1.gif' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="row"> 
+        <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/10-drop2.gif' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/10-drop3.gif' | relative_url }}" alt="" title="example image"/>
+    </div>   
+</div>
+<br>
 
-I aslo attached two **wrong** implementations of the return mapping. It is hilarious how the material behaves. No one likes explosion except Deidara!
+I recently found a promising related pioneer work <a href="http://plasticinelab.csail.mit.edu/">"PlasticineLab: A Soft-Body Manipulation Benchmark with Differentiable Physics"</a>. I decided to learn from it!
+
+
+
+<h2> Miscellaneous </h2>
+
+I aslo attached two **wrong** implementations of the return mapping. It is hilarious how the material behaves. No one likes explosion except Deidara.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cloth/3-jiang1.gif' | relative_url }}" alt="" title="example image"/>
@@ -161,6 +182,8 @@ I aslo attached two **wrong** implementations of the return mapping. It is hilar
     </div>  
 </div>
 <br>
+
+I might join EPFL in 2023 as a PhD student. 亦可赛艇!
 
 
 <h2> Reference Materials</h2>
